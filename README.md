@@ -28,7 +28,31 @@ This project involves the development of a deep learning model for classifying r
 - The saved model was loaded and predictions were made on a new image.
 - The predicted class and the actual class were displayed on the image.
 
+### **Model Performance**:
+   - The best model achieved an accuracy of 99.65% on the training data.
+   - The model's accuracy on the test data was measured at 99%.
 
+### **Model Evaluation**:
+   - The model's loss value was calculated as 0.02 on the training data and 0.20 on the test data.
+   - The classification report and confusion matrix of the model are as follows:
+
+   ```
+   Classification Report:
+              precision    recall  f1-score 
+
+     Arborio       1.00      1.00      1.00      
+     Basmati       1.00      1.00      1.00      
+      Ipsala       1.00      1.00      1.00      
+     Jasmine       1.00      0.99      1.00      
+   Karacadag       1.00      1.00      1.00      
+
+   Confusion Matrix:
+       [2989,    0,    0,    2,    6]
+       [   0, 2990,    0,    5,    0]
+       [   0,    0, 3083,    0,    0]
+       [   5,   11,    0, 2979,    1]
+       [   9,    0,    0,    0, 2920]
+   ```
 ### Model Saving and Prediction
 - The best model was saved as `rice_model.h5`.
 - The saved model can predict with 99% accuracy on new images.
