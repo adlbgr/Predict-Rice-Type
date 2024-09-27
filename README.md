@@ -53,9 +53,6 @@ This project involves the development of a deep learning model for classifying r
        [   5,   11,    0, 2979,    1]
        [   9,    0,    0,    0, 2920]
    ```
-### Model Saving and Prediction
-- The best model was saved as `rice_model.h5`.
-- The saved model can predict with 99% accuracy on new images.
 
 ## Conclusion
 This project demonstrates the development of an effective deep learning model for classifying rice images with high accuracy and low loss values.
